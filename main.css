@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body > header {
+    background-color: #4e535b;
+    padding: 16px 0; 
+    color:rgb(237, 238, 239);
+    font-size: 20px;
+    position:fixed;
+    width: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+header .container {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li a {
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+
+.articles article img {
+    /* height: 80px;*/
+    width: 100%;
+    margin-top: 16px;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article p {
+    color: #1c1c1c;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section h2 {
+    font-size: 30px;
+    color: #333333;
+    padding: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+section h2,
+.articles article {
+    margin-botton: 16px;
+}
+
+.articles article h3 {
+    margin-top: 8px;
+    margin-bottom: 2px;
+}
+
+.articles article a {
+    background-color: rgb(87, 136, 169);
+    color:aliceblue;
+    padding:8px;
+    display:inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.articles article a:hover {
+    text-decoration: underline;
+}
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.articles article h3 {
+    font-size: 30px;
+    font-weight:600;
+    color: #333333;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#sports {
+    background-color: rgba(239, 253, 185, 0.747);
+}
+
+#sports h2 {
+    margin-top: 80px;
+}
+
+#sports .articles article a,
+#sports h2 {
+    background-color: rgb(145, 174, 99);
+}
+
+#economy {
+    background-color: rgb(242, 242, 161);
+}
+
+#economy .articles article a,
+#economy h2 {
+    background-color: rgb(215, 183, 104);
+}
+
+
+#intertainment{
+    background-color: rgba(242, 132, 158, 0.5);
+}
+
+#intertainment .articles article a,
+#intertainment h2 {
+    background-color: rgba(158, 55, 79, 0.5);
+}
+
+#technology {
+    background-color: rgba(132, 183, 242, 0.5);
+}
+
+#technology .articles article a,
+#technology h2 {
+    background-color: rgba(37, 68, 102, 0.5);
+}
